@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>O nama</title>
+        <link rel="icon" href="Slike/ikonica.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="jscript.js"></script>
+    </head>
+    <body>
+
+        <div class="meni">
+            <ul>
+                <a href="proizvodi.html"><li>Proizvodi</li></a>
+                <a href="kontakt.html"><li>Kontakt</li></a>
+                <a href="index.html"><li>Početna</li></a>
+            </ul>
+        </div>
+
+        <div class="slika">
+            <img src="Slike/Laptop.png" onmouseover="boja()" onmouseout="nista()">
+        </div>
+
+        <div class="onama">
+            <h3>Da li tražite novi uređaj?</h3>
+            <p class="prvi">Ako je Vaš odgovor DA. Ne morate da tražite dalje! U našoj prodavnici možete da odaberete širok
+                asortiman raznih elektronskih uređaja.
+            </p>
+            <p class="drugi">Uređaji koji su vam na raspolaganju su:</p>
+            <ul>
+                <li>Laptopovi</li>
+                <li>Sklopljeni računari</li>
+                <li>Komponente za računare</li>
+                <li>Mobilni telefoni</li>
+                <li>Slušalice</li>
+                <li>Mikrofoni</li>
+                <li>Periferije za računare</li>
+            </ul>
+
+            <button class="dugTab" onClick="generisiTabelu()">Prikazi tabelu</button>
+            <div id="tabela"></div>
+        </div>
+    </body>
+</html>

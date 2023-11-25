@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kontakt</title> 
+        <link rel="icon" href="Slike/ikonica.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="jscript.js"></script>
+    </head>
+    <body>
+        
+        <div class="meni">
+            <ul>
+                <a href="proizvodi.html"><li>Proizvodi</li></a>
+                <a href="index.html"><li>Početna</li></a>
+                <a href="onama.html"><li>O nama</li></a>
+            </ul>
+        </div>
+        
+        <div class="forma">
+            <form>
+                <p>Ime:  <input type="text" id="ime"></p>
+                <p>Prezime:  <input type="text" id="prezime"></p>
+                <p>Email:  <input type="email" placeholder="adresa@xx.com" id="email"></p>
+                <p>Lozinka:  <input type="password" maxlength="15" id="psw"></p>
+                <p>    
+                Želite li da primate e-mailove? <br> 
+                <input type="radio" name="mejling" value="da" id="da">Da
+                <input type="radio" name="mejling" value="ne" id="ne">Ne
+                </p>
+                <p>
+                <input type="submit" value="Prosledi" id="prosledi" onclick="hvala()">
+                <input type="reset" value="Poništi" id="ponisti">
+                </p>
+            </form>
+
+                <div class="container" id="polje">
+                    <h3>Popust <input type="number" id="popust"> %</h3> <br>
+                    <h3>Sadašnja cena <input type="number" id="pare"> din.</h3>   
+                    <button onclick="kalkulator()">Izračunaj</button>
+                </div>
+
+        </div>
+        
+    </body>
+</html>

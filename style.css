@@ -1,0 +1,309 @@
+*{
+    transition: 0.3s ease;
+}
+body{
+    background-image: url(Slike/pozadina.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.meni{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.meni ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.meni ul a{
+    text-decoration: none;
+}
+.meni ul li{
+    display: inline;
+    color: white;
+    font-weight: bold;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 22px;
+}
+.meni ul a li:hover{
+    background-color: #7fcbd7;
+    border-radius: 15px;
+}
+/*Pocetna*/
+.podaci{
+    width: 40%;
+    height: 200px;
+    padding-left: 80px;
+    margin-top: 95px;
+    color: white;
+    /* border: 1px solid white; */
+}
+.podaci h1{
+    font-size: 40;
+    margin-right: 300px;
+}
+.podaci span{
+    font-style: italic;
+}
+.podaci p{
+    font-size: 20px;
+}
+.znak{
+    float: right;
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.znak img{
+    width: 300px;
+    height: 400px;
+    padding-right: 80px;
+}
+
+/*Kontakt*/
+.forma{
+    width: 93%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 60px;
+    padding-left: 80px;
+    color: white;
+    font-size: 20px;
+}
+#ime, #prezime, #email, #psw{
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+}
+#ime:hover, #prezime:hover, #email:hover, #psw:hover{
+    border: 3px solid #7fcbd7;
+}
+#da, #ne{
+    width: 20px;
+    height: 20px;
+}
+#prosledi, #ponisti{
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+#prosledi:hover, #ponisti:hover{
+    border: 3px solid #7fcbd7;
+    background-color: powderblue;
+}
+.container {
+	width: 500px;
+	margin: auto 60 auto auto;
+	border: 2px solid skyblue;
+	border-radius: 30px;
+	background-color: rgb(0, 0, 0, 0.3);
+	padding: 20px;
+}
+.container input {
+	max-width: 100px;
+	height: 40px;
+	font-size: 18px;
+	text-align: center;
+}
+.container button {
+	border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+.izracunaj{
+    margin-top: 20px;
+	font-size: 20px;
+}
+.container button:hover{
+    border: 3px solid #7fcbd7;
+    background-color: powderblue;
+}
+
+/*O nama*/
+.onama{
+    width: 40%;
+    height: 400px;
+    color: white;
+    padding-right: 80px;
+    margin-top: 40px;
+    float: right;
+}
+.onama h3{
+    font-style: italic;
+    font-size: 23px;
+}
+.onama .prvi{
+    font-weight: bold;
+    font-size: 16px;
+}
+.onama ul{
+    list-style: circle;
+}
+.slika{
+    float: left;
+    width: 40%;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.slika img{
+    width: 500px;
+    height: 350px;
+    padding-left: 80px;
+}
+.dugTab{
+    margin-top: 10px;
+    background-color: skyblue;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    /* display: inline-block; */
+    font-size: 16px;
+}
+.dugTab:hover{
+    background-color: #3e8e41;
+}
+#tabela{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Proizvodi*/
+h1 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+h2 {
+	margin-bottom: 15px;
+}
+
+h3 {
+	margin-bottom: 15px;
+}
+
+.divajder {
+	width: 90%;
+	margin: auto;
+	border: 2px solid skyblue;
+	border-radius: 30px;
+	display: flex;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.items {
+	width: 60%;
+	padding: 20px;
+}
+
+.cart {
+	width: 40%;
+	padding: 20px;
+	border-left: 2px solid skyblue;
+	position: relative;
+}
+
+.single-item {
+	display: flex;
+	border-bottom: 1px solid grey;
+	padding: 15px 0;
+}
+
+.single-item:last-child {
+	border-bottom: 0;
+}
+
+.single-item img {
+	width: 150px;
+    height: 150px;
+}
+
+.single-item .si-content {
+	width: 70%;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.single-item .si-content p {
+	font-size: 20px;
+}
+
+.single-item .actions {
+	width: 30%;
+}
+
+.single-item .actions input {
+	height: 40px;
+	width: 60px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.single-item .actions button {
+	width: 60px;
+	margin-top: 10px;
+	height: 30px;
+	font-size: 16px;
+}
+
+.cart-single-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.cart-single-item h3 {
+	margin-bottom: 0;
+}
+
+.cart-single-item button {
+	padding: 5px;
+}
+
+.total {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	font-size: 24px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .meni{
+        justify-content: center;
+        height: 200px;
+    }
+    .meni ul li{
+        margin: 0 auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .divajder{
+        display: block;
+    }
+    .proizvod{
+        margin-top: 250px;
+    }
+}

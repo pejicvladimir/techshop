@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Proizvodi</title>
+        <link rel="icon" href="Slike/ikonica.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="jscript.js"></script>
+    </head>
+    <body>
+
+        <div class="meni">
+            <ul>
+                <a href="index.html"><li>Početna</li></a>
+                <a href="kontakt.html"><li>Kontakt</li></a>
+                <a href="onama.html"><li>O nama</li></a>
+            </ul>
+        </div>
+
+        <div class="divajder">
+            <div class="items">
+                <h2>Proizvodi</h2>
+
+                <div class="single-item">
+                    <img src="Slike/macbook.jpg">
+                    <div class="si-content">
+                        <h3>Macbook Air</h3>
+                        <p class="price">RSD 250000</p>
+                    </div>
+                    <div class="actions">
+                        <input type="number" name="quantity" value="0" min="0">
+                        <button onclick="dodajUkorpu(this)">Dodaj</button>
+                    </div>
+                </div>
+
+                <div class="single-item">
+                    <img src="Slike/rtx.jpg">
+                    <div class="si-content">
+                        <h3>Nvidia RTX 3090</h3>
+                        <p class="price">RSD 150000</p>
+                    </div>
+                    <div class="actions">
+                        <input type="number" name="quantity" value="0" min="0">
+                        <button onclick="dodajUkorpu(this)">Dodaj</button>
+                    </div>
+                </div>
+
+                <div class="single-item">
+                    <img src="Slike/mikrofon.jpg">
+                    <div class="si-content">
+                        <h3>RODE mikrofon</h3>
+                        <p class="price">RSD 7000</p>
+                    </div>
+                    <div class="actions">
+                        <input type="number" name="quantity" value="0" min="0">
+                        <button onclick="dodajUkorpu(this)">Dodaj</button>
+                    </div>
+                </div>
+
+                <div class="single-item">
+                    <img src="Slike/slusalice.jpg">
+                    <div class="si-content">
+                        <h3>Slusalice</h3>
+                        <p class="price">RSD 2750</p>
+                    </div>
+                    <div class="actions">
+                        <input type="number" name="quantity" value="0" min="0">
+                        <button onclick="dodajUkorpu(this)">Dodaj</button>
+                    </div>
+                </div>
+
+                <div class="single-item">
+                    <img src="Slike/telefon.jpg">
+                    <div class="si-content">
+                        <h3>Samusng telefon</h3>
+                        <p class="price">RSD 125000</p>
+                    </div>
+                    <div class="actions">
+                        <input type="number" name="quantity" value="0" min="0">
+                        <button onclick="dodajUkorpu(this)">Dodaj</button>
+                    </div>
+                </div>
+
+                <div class="single-item">
+                    <img src="Slike/pc.jfif">
+                    <div class="si-content">
+                        <h3>Računar</h3>
+                        <p class="price">RSD 90000</p>
+                    </div>
+                    <div class="actions">
+                        <input type="number" name="quantity" value="0" min="0">
+                        <button onclick="dodajUkorpu(this)">Dodaj</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart">
+                <h2>Korpa</h2>
+                
+                <div class="cart-items"></div>
+
+                <div class="total"></div>
+            </div>
+        </div>
+    </body>
+</html>
